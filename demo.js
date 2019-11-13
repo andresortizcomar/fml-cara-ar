@@ -172,7 +172,7 @@ function init_threeScene(spec) {
   }
 
   //MT216 : create the frame. We reuse the geometry of the video
-  const calqueMesh = new THREE.Mesh(threeStuffs.videoMesh.geometry,  create_mat2d(new THREE.TextureLoader().load('./images/cadre_halloween.png'), true))
+  const calqueMesh = new THREE.Mesh(threeStuffs.videoMesh.geometry,  create_mat2d(new THREE.TextureLoader().load('./images/fml-entomologia.png'), true))
   calqueMesh.renderOrder = 999; // render last
   calqueMesh.frustumCulled = false;
   threeStuffs.scene.add(calqueMesh);
